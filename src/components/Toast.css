@@ -1,0 +1,23 @@
+.toast {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.toast-info {
+  background-color: #e9f3fc;
+  color: #2c4f7c;
+}
+
+.toast-success {
+  background-color: #e6f4ea;
+  color: #2e7d32;
+}
+
+.toast-warning {
+  background-color: #fff4e5;
+  color: #996100;
+}
+
+.toast-error {
+  background-color: #fdecea;
+  color: #b00020;
+}

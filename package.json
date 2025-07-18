@@ -1,0 +1,47 @@
+{
+  "name": "mapleassist",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "crypto-browserify": "^3.12.1",
+    "dayjs": "^1.11.13",
+    "epubjs": "^0.3.93",
+    "face-api.js": "^0.22.2",
+    "file-saver": "^2.0.5",
+    "gif.js.optimized": "^1.0.1",
+    "html2canvas": "^1.4.1",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.9.1",
+    "mathjs": "^14.5.3",
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^3.11.174",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "react-sortablejs": "^6.1.4",
+    "sortablejs": "^1.15.6",
+    "tesseract.js": "^6.0.1",
+    "xlsx": "^0.18.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
