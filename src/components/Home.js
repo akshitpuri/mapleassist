@@ -53,7 +53,7 @@ export default function Home() {
 }
 // 📐 Styles
 const outerWrap = {
-  backgroundImage: 'url("/maple-pattern.png")', // use seamless maple tile
+  backgroundImage: `url(${process.env.PUBLIC_URL}/maple-pattern.png)`, // use seamless maple tile
   backgroundRepeat: 'repeat',
   backgroundSize: 'auto',
   backgroundPosition: 'top left',

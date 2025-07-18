@@ -52,7 +52,7 @@ export default function FileToolsHome() {
 }
 
 const outerWrap = {
-  backgroundImage: 'url("/maple-pattern.png")',
+  backgroundImage: `url(${process.env.PUBLIC_URL}/maple-pattern.png)`,
   backgroundRepeat: 'repeat',
   backgroundSize: 'auto',
   backgroundPosition: 'top left',
