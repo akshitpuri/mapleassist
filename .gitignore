@@ -1,0 +1,11 @@
+node_modules/
+<<<<<<< HEAD
+build/
+.cache/
+*.log
+=======
+.cache/
+*.pack
+*.log
+build/
+>>>>>>> 8682c0955d58385da2a64f99f66ee8176a223e7f
