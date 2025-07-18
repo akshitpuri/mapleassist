@@ -1,0 +1,22 @@
+# Dependency & Build folders
+node_modules/
+build/
+.cache/
+
+# Deployment artifacts & logs
+*.log
+*.pack
+
+# IDE & system files
+.DS_Store
+.env
+Thumbs.db
+
+# Optional: VS Code settings
+.vscode/
+
+# Optional: npm debug logs
+npm-debug.log*
+
+# Prevent pushing personal settings (if any)
+*.local
