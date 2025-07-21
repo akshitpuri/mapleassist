@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mapleassist/static/css/main.549a776b.css",
-    "main.js": "/mapleassist/static/js/main.890e6e5a.js",
+    "main.js": "/mapleassist/static/js/main.f3959fd2.js",
     "static/js/4808.b5fab93b.chunk.js": "/mapleassist/static/js/4808.b5fab93b.chunk.js",
     "static/css/5933.eb4cb569.chunk.css": "/mapleassist/static/css/5933.eb4cb569.chunk.css",
     "static/js/5933.a4226359.chunk.js": "/mapleassist/static/js/5933.a4226359.chunk.js",
@@ -118,7 +118,7 @@
     "static/js/5239.8ddaa3b8.chunk.js": "/mapleassist/static/js/5239.8ddaa3b8.chunk.js",
     "index.html": "/mapleassist/index.html",
     "main.549a776b.css.map": "/mapleassist/static/css/main.549a776b.css.map",
-    "main.890e6e5a.js.map": "/mapleassist/static/js/main.890e6e5a.js.map",
+    "main.f3959fd2.js.map": "/mapleassist/static/js/main.f3959fd2.js.map",
     "4808.b5fab93b.chunk.js.map": "/mapleassist/static/js/4808.b5fab93b.chunk.js.map",
     "5933.eb4cb569.chunk.css.map": "/mapleassist/static/css/5933.eb4cb569.chunk.css.map",
     "5933.a4226359.chunk.js.map": "/mapleassist/static/js/5933.a4226359.chunk.js.map",
@@ -236,6 +236,6 @@
   },
   "entrypoints": [
     "static/css/main.549a776b.css",
-    "static/js/main.890e6e5a.js"
+    "static/js/main.f3959fd2.js"
   ]
 }
