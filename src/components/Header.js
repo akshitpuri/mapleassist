@@ -57,6 +57,7 @@ export default function Header() {
 
 const navLinks = [
   { path: '/', label: 'Home' },
+  { path: '/deals', label: 'MapleDeals' },
   { path: '/calculators', label: 'MapleCalc' },
   { path: '/filetools', label: 'MapleForge' },
   { path: '/about', label: 'About' },

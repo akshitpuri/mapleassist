@@ -2,7 +2,7 @@
   "name": "mapleassist",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://akshitpuri.github.io/mapleassist",
+  "homepage": "https://akshitpuri/mapleassist",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -22,7 +22,7 @@ export default function Terms() {
       <section style={section}>
         <h2 style={subheading}>2. Scope of Services</h2>
         <p>
-          MapleAssist provides calculators, file utilities, and productivity tools that function without accounts, installations, or internet access.
+          MapleAssist provides calculators, file utilities, and productivity tools that function without accounts, installations, or persistent user data. It also offers a curated selection of verified Canadian deals for groceries, phones, restaurants, and retail. All services operate with privacy-first design and minimal dependencies.
         </p>
       </section>
 

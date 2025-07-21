@@ -42,21 +42,28 @@ export default function Privacy() {
       </section>
 
       <section style={section}>
-        <h2 style={subheading}>5. External Resources</h2>
+        <h2 style={subheading}>5. MapleDeals Privacy</h2>
+        <p>
+          Our Deals pages are sourced from public data with no behavioral tracking. Browsing flyers, coupons, or retail offers does not require login and does not personalize based on your location or activity.
+        </p>
+      </section>
+
+      <section style={section}>
+        <h2 style={subheading}>6. External Resources</h2>
         <p>
           Links to other websites may be present. We encourage users to review the privacy practices of third parties independently.
         </p>
       </section>
 
       <section style={section}>
-        <h2 style={subheading}>6. Policy Updates</h2>
+        <h2 style={subheading}>7. Policy Updates</h2>
         <p>
           We may revise this policy periodically. Any changes will be reflected here. Continued use indicates agreement with the latest version.
         </p>
       </section>
 
       <section style={section}>
-        <h2 style={subheading}>7. Contact</h2>
+        <h2 style={subheading}>8. Contact</h2>
         <p>
           For inquiries or feedback, reach us anytime at <strong>support@mapleassist.com</strong>.
         </p>

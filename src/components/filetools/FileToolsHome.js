@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import FileToolsLayout from './FileToolsLayout';
+import { Helmet } from 'react-helmet';
 
 const categories = [
   { name: 'PDF Tools', path: '/filetools/pdftools', icon: '📄', description: 'Split, merge, compress and manage PDFs.' },
@@ -22,15 +22,22 @@ const categories = [
 export default function FileToolsHome() {
   return (
     <div style={outerWrap}>
-      <FileToolsLayout showBackButton={false}>
+      <Helmet>
+        <title>MapleForge | File Utilities & Converters</title>
+        <meta name="description" content="Explore powerful privacy-first file tools — from PDFs and images to code, media, and archives." />
+      </Helmet>
+
+      <main style={container}>
         {/* 🧭 Hero Section */}
         <section style={hero}>
-          <div style={headerRow}>
-            <h1 style={heroTitle}>MapleForge</h1>
-          </div>
+          <h1 style={heroTitle}>MapleForge</h1>
           <p style={heroSubtitle}>
-            A focused suite of file utilities for professionals, creators, and developers. Work offline, stay private, and get more done—fast.
+            A focused suite of file utilities for professionals, creators, and developers.
+            Work offline, stay private, and get more done—fast.
           </p>
+          <div style={buttonGroup}>
+            <Link to="/" style={primaryBtn}>Back to Home</Link>
+          </div>
         </section>
 
         {/* 📂 Tool Grid Section */}
@@ -46,7 +53,7 @@ export default function FileToolsHome() {
             ))}
           </div>
         </section>
-      </FileToolsLayout>
+      </main>
     </div>
   );
 }
@@ -62,27 +69,25 @@ const outerWrap = {
   padding: '0 0 60px'
 };
 
-const hero = {
-  textAlign: 'center',
-  padding: '48px 32px', // ✅ tightened to match Home.jsx
-  marginBottom: '0',
-  color: '#2b2b2b'
+const container = {
+  maxWidth: '1100px',
+  margin: '0 auto',
+  padding: '0 24px',
+  fontFamily: '"Segoe UI", system-ui, sans-serif',
+  color: '#2c2c2c'
 };
 
-const headerRow = {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  marginBottom: '16px',
-  flexWrap: 'wrap',
-  gap: '12px'
+const hero = {
+  textAlign: 'center',
+  padding: '80px 32px',
+  marginBottom: '0',
+  color: '#2b2b2b'
 };
 
 const heroTitle = {
   fontSize: '2.6rem',
   fontWeight: 700,
-  marginBottom: '16px',
-  color: '#2c2c2c'
+  marginBottom: '16px'
 };
 
 const heroSubtitle = {
@@ -91,6 +96,22 @@ const heroSubtitle = {
   margin: '0 auto 32px',
   color: '#555',
   lineHeight: '1.6'
+};
+
+const buttonGroup = {
+  display: 'flex',
+  justifyContent: 'center',
+  marginTop: '24px'
+};
+
+const primaryBtn = {
+  fontSize: '1rem',
+  padding: '12px 28px',
+  backgroundColor: '#2b2b2b',
+  color: '#fff',
+  textDecoration: 'none',
+  borderRadius: '6px',
+  fontWeight: 500
 };
 
 const gridWrap = {
@@ -110,7 +131,7 @@ const sectionHeading = {
 
 const grid = {
   display: 'grid',
-  gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+  gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))',
   gap: '28px',
   marginBottom: '60px'
 };

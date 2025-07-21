@@ -19,11 +19,12 @@ export default function CalculatorDashboard() {
         <section style={hero}>
           <h1 style={heroTitle}>MapleCalc</h1>
           <p style={heroSubtitle}>
-            A curated suite of calculation utilities engineered for clarity, speed, and privacy. From financial planning to academic analysis,
-            MapleCalc delivers offline precision across every category.
+            A curated suite of calculation utilities engineered for clarity, speed, and privacy.
+            From financial planning to academic analysis, MapleCalc delivers offline precision across every category.
           </p>
           <div style={buttonGroup}>
             <Link to="/calculators/all" style={primaryBtn}>Browse All Calculators</Link>
+            <Link to="/" style={secondaryBtn}>Back to Home</Link>
           </div>
         </section>
 
@@ -62,6 +63,7 @@ export default function CalculatorDashboard() {
     </div>
   );
 }
+
 
 // 🎨 Styles
 const outerWrap = {
@@ -207,4 +209,14 @@ const cardDesc = {
   fontSize: '0.95rem',
   color: '#555',
   lineHeight: '1.5'
+};
+
+const secondaryBtn = {
+  fontSize: '1rem',
+  padding: '12px 28px',
+  backgroundColor: '#d4e1f5',
+  color: '#1a3a5d',
+  textDecoration: 'none',
+  borderRadius: '6px',
+  fontWeight: 500
 };

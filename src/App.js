@@ -217,6 +217,19 @@ const LoveCalculatorTool = lazy(() =>
 //DashBoard 
 import AllCalculatorsPage from './pages/AllCalculatorsPage';
 
+//Deals Page
+import Deals from './pages/Deals';
+import Flyers from './pages/Flyers';
+import Groceries from './components/Deals/Groceries';
+import Automotive from './components/Deals/Automotive';
+import Mobile from './components/Deals/Mobile';
+import Restaurants from './components/Deals/Restaurants';
+import Apparel from './components/Deals/Apparel';
+import Kids from './components/Deals/Kids';
+import Travel from './components/Deals/Travel';
+import Finance from './components/Deals/Finance';
+import Electronics from './components/Deals/Electronics';
+import Wellness from './components/Deals/Wellness';
 
 // Document tools
 
@@ -296,6 +309,7 @@ const QRCodeGenerator = lazy(() => import('./components/filetools/privacysecurit
 
 
 
+
 //Dashboard
 import CalculatorDashboard from './pages/CalculatorDashboard';
 
@@ -325,6 +339,19 @@ function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/privacy" element={<Privacy />} />
 
+        {/* 🛍️ Deals */}
+        <Route path="/deals" element={<Deals />} />
+        <Route path="/flyers" element={<Flyers />} />
+        <Route path="/deals/groceries" element={<Groceries />} />
+        <Route path="/deals/automotive" element={<Automotive />} />
+        <Route path="/deals/mobile" element={<Mobile />} />
+        <Route path="/deals/restaurants" element={<Restaurants />} />
+        <Route path="/deals/apparel" element={<Apparel />} />
+        <Route path="/deals/kids" element={<Kids />} />
+        <Route path="/deals/wellness" element={<Wellness />} />
+        <Route path="/deals/travel" element={<Travel />} />
+        <Route path="/deals/finance" element={<Finance />} />
+        <Route path="/deals/electronics" element={<Electronics />} />
 
 
         {/* Calculators */}

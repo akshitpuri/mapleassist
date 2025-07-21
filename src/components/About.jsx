@@ -15,7 +15,7 @@ export default function About() {
       {/* 📝 Content Sections */}
       <section style={section}>
         <p>
-          <strong>MapleAssist</strong> is a curated collection of tools built with simplicity, speed, and privacy in mind. Whether you're balancing numbers, converting files, or making calculations, our platform ensures access—online or offline—without distractions or signups.
+          <strong>MapleAssist</strong> is a curated collection of tools built with simplicity, speed, and privacy in mind. Whether you're balancing numbers, converting files, making calculations, or saving money, our platform ensures access—online or offline—without distractions or signups.
         </p>
         <p>
           We believe productivity tools should be quiet, fast, and respectful. MapleAssist is designed to stay out of your way while helping you move forward.
@@ -33,6 +33,13 @@ export default function About() {
         <h2 style={subheading}>File Utilities Without the Fuss</h2>
         <p>
           Rename files, compress folders, and convert formats effortlessly within your browser. MapleForge operates fully offline, respecting your time and bandwidth.
+        </p>
+      </section>
+
+      <section style={section}>
+        <h2 style={subheading}>Canada’s Weekly Deal Finder</h2>
+        <p>
+          We’ve added a full suite of curated savings pages for Canadian shoppers—sorted by category and updated weekly. From flyers and cashback offers to food freebies and phone plans, MapleDeals highlights verified promotions across major brands. It’s privacy-first, no login required.
         </p>
       </section>
 
